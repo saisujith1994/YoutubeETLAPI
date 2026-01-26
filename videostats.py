@@ -25,7 +25,6 @@ def get_playlist():
 if __name__ == "__main__":
     playlist_id= get_playlist()
     print(playlist_id)
-else:
-    print("You are trying to run from an external location")
+
 
 
