@@ -1,9 +1,10 @@
 import requests
 import json
-
-ApiKey= "AIzaSyCRGY0C1ciI2AMVSGsK6HY5NtXlYVTSmbU"
+import os
+from dotenv import load_dotenv
+load_dotenv(dotenv_path="./.env")
 Handle= "ManaStarsdotcom"
-
+ApiKey= os.getenv("ApiKey")
 def get_playlist():
 
     try:
