@@ -3,7 +3,7 @@ import json
 import os
 from dotenv import load_dotenv
 load_dotenv(dotenv_path="./.env")
-Handle= "ManaStarsdotcom"
+Handle= "MLB"
 ApiKey= os.getenv("ApiKey")
 def get_playlist():
 
